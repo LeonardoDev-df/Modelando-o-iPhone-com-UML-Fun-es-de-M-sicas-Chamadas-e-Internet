@@ -1,29 +1,51 @@
-Para elaborar o diagrama de classes UML que representa os papéis do iPhone como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet, podemos pensar nas seguintes classes e interfaces:
+# Diagrama de Classes UML: iPhone como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet
 
-Classes e Interfaces:
-Dispositivo (Classe abstrata)
+## Descrição
 
-Atributos: marca, modelo, capacidadeBateria
-Métodos: ligar(), desligar(), recarregar()
-IReprodutorMusical (Interface)
+Este projeto modela os papéis do iPhone como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet usando um diagrama de classes UML. Abaixo estão as classes e interfaces utilizadas para essa modelagem.
 
-Métodos: tocarMusica(), pausarMusica(), selecionarMusica()
-IAparelhoTelefonico (Interface)
+## Classes e Interfaces
 
-Métodos: fazerChamada(), atenderChamada(), encerrarChamada()
-INavegadorInternet (Interface)
+### 1. **Dispositivo** (Classe abstrata)
+   - **Atributos**:
+     - `marca`
+     - `modelo`
+     - `capacidadeBateria`
+   - **Métodos**:
+     - `ligar()`
+     - `desligar()`
+     - `recarregar()`
 
-Métodos: abrirPagina(), adicionarFavorito(), exibirHistorico()
-iPhone (Classe concreta que herda de Dispositivo e implementa as interfaces IReprodutorMusical, IAparelhoTelefonico e INavegadorInternet)
+### 2. **IReprodutorMusical** (Interface)
+   - **Métodos**:
+     - `tocarMusica()`
+     - `pausarMusica()`
+     - `selecionarMusica()`
 
-Implementa todos os métodos das interfaces.
-Diagrama de Classes:
-Dispositivo será a classe base da qual iPhone herda.
-iPhone implementa as interfaces IReprodutorMusical, IAparelhoTelefonico, e INavegadorInternet.
-Vou gerar um diagrama UML com base nessa estrutura. Vou criar e compartilhar o diagrama com você.
+### 3. **IAparelhoTelefonico** (Interface)
+   - **Métodos**:
+     - `fazerChamada()`
+     - `atenderChamada()`
+     - `encerrarChamada()`
 
-Aqui está o diagrama de classes UML que representa os papéis do iPhone como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet:
+### 4. **INavegadorInternet** (Interface)
+   - **Métodos**:
+     - `abrirPagina()`
+     - `adicionarFavorito()`
+     - `exibirHistorico()`
+
+### 5. **iPhone** (Classe concreta)
+   - **Descrição**: Herda de `Dispositivo` e implementa as interfaces `IReprodutorMusical`, `IAparelhoTelefonico` e `INavegadorInternet`.
+   - **Métodos**:
+     - Implementa todos os métodos das interfaces mencionadas.
+
+## Diagrama de Classes
+
+- **Dispositivo** é a classe base da qual **iPhone** herda.
+- **iPhone** implementa as interfaces **IReprodutorMusical**, **IAparelhoTelefonico** e **INavegadorInternet**.
+
+## Diagrama UML
+
+Este diagrama de classes UML representa os papéis do iPhone conforme descrito acima.
 
 ![uml_diagram_iphone](https://github.com/user-attachments/assets/6a02c782-d28b-4e9e-a474-da5617d4873d)
-
-Este diagrama inclui as classes e interfaces conforme discutido. Se precisar de mais alguma modificação ou outro detalhe, estou à disposição! ​
