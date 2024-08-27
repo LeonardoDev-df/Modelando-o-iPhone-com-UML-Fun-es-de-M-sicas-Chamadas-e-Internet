@@ -1,18 +1,37 @@
-## Getting Started
+ Compilar e Executar o Projeto
+Compilar: Abra um terminal ou prompt de comando, navegue até a pasta /src/main/java e compile os arquivos com o seguinte comando:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+bash
+Copiar código
+javac com/iphone/*.java
+Executar: Após a compilação, execute o código:
 
-## Folder Structure
+bash
+Copiar código
+java com.iphone.Main
+Saída Esperada
+Ao executar o código, você verá a saída dos métodos da classe iPhone sendo executados, como:
 
-The workspace contains two folders by default, where:
+css
+Copiar código
+Reproduzindo música.
+Música pausada.
+Música selecionada.
+Fazendo chamada.
+Atendendo chamada.
+Chamada encerrada.
+Abrindo página na internet.
+Adicionando página aos favoritos.
+Exibindo histórico de navegação.
+Uso em IDE
+Se preferir usar uma IDE como IntelliJ IDEA ou Eclipse:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Importe o projeto: Crie um novo projeto Java, configure o nome do pacote (com.seuprojeto), e adicione os arquivos .java nas pastas correspondentes.
+Execute o código diretamente pela IDE.
+Seguindo esses passos, o projeto deve funcionar corretamente. Se encontrar alguma dificuldade ou precisar de ajuda em alguma parte, estou aqui para ajudar!
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
